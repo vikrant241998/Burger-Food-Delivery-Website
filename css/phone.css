@@ -1,0 +1,136 @@
+/* Reset Phone Css */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navbar section */
+  #navbar{
+    flex-direction: column;
+    position: static;
+}
+
+.logo {
+    padding: 5px;
+    margin: 5px;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+}
+
+#navbar ul li a{
+    padding: 0px 0px;
+}
+
+#navbar::before {
+    height: 18%;
+    opacity: 0.3;
+}
+
+
+/* ============================================================================== */
+
+/* Home section */
+.home h1 {
+    font-size: 2rem;
+}
+
+.home h1:hover{        
+    border-radius: 13px 13px;
+    padding: 8px 5px;
+    }
+
+.home{
+    height: 645px;
+} 
+
+.home p{
+    margin: 5px 0px;
+    line-height: 20px;
+}
+
+#btn {
+    position: relative;
+    top: 5px;
+    padding: 5px 15px;
+    margin: 5px 16px;
+    font-size: 1rem;
+}
+
+
+/* Service section =============================*/
+.service-heading h3 {
+    font-size: 1.7rem;
+}
+
+/* Clients section ===============*/
+.h-secondary2 {
+    font-size: 1.2rem;
+    padding: 10px 1px;
+    margin-top: 14vh;
+    margin-bottom: 4vh;
+}
+
+.client-items img{
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#clients{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Contact section============== */
+
+.h-secondary3 {
+    font-size: 1.4rem;
+    padding: 10px 1px;
+    margin-top: 4vh;
+}
+
+#contact-box label {
+    font-size: 1rem;
+}
+
+#contact-box input, #contact-box textarea {
+    width: 137%;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}
+
+
+
+/* Food Deliversy Section */
+#our-client {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.client-cont img {
+    height: 54px;
+}
+
+/* Footer section */
+footer {
+    flex-wrap: wrap;
+}
+
+#tube_logo img {
+    height: 15px;
+    width: 50px;
+}
+
+footer img {
+    height: 15px;
+}
+
+.end2{
+    font-size: 10px;
+}
